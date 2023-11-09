@@ -1,0 +1,346 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+.hfe-cart-menu-wrap-default .hfe-cart-count, .hfe-cart-menu-wrap-default .hfe-cart-count:after {
+  border-color: #333;
+    color: #333;
+}
+.elementor-76 .elementor-element.elementor-element-679a3f5 .hfe-masthead-custom-menu-items .hfe-site-header-cart .hfe-site-header-cart-li, .elementor-315 .elementor-element.elementor-element-546bb31 .hfe-masthead-custom-menu-items .hfe-site-header-cart .hfe-site-header-cart-li {
+  font-size: 10px;
+} {
+  font-size: 12px;
+}
+
+.section-icon .elementor-icon {
+  background: #3595ef;
+  width: 75px;
+  height: 75px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+}
+.section-icon .elementor-icon i {
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+.section-icon .elementor-icon-box-icon:after {
+  content: "";
+  width: 130px;
+  height: 1px;
+  top: 30%;
+  position: absolute;
+  background: #3c3c3c;
+  left: 80%;
+}
+/* ====================================== SECTION CATEGORY ======================================*/
+.ht-category-wrap .ht-category-content-3 {
+  background: #3595EF !important;
+  position: absolute !important;
+  z-index: 9;
+  top: 48%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: 50% !important;
+  margin: 0 auto;
+  padding: 15px 10px 14px;
+}
+.ht-category-wrap .ht-category-content-3 h3 a {
+  color: #fff !important;
+}
+/* ====================================== SECTION MENU ======================================*/
+
+.section-menu #tab-beverages {
+  display: none !important;
+}
+.section-menu  #tab-appetizers {
+  display: block;
+}
+.section-menu {
+  background: url(images/menu-bg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.section-title h4,
+.section-title h5 {
+  font-family: "Courgette", cursive;
+}
+.menuul {
+  list-style: none;
+  padding: 0;
+}
+.menuul li {
+  padding: 20px 0;
+  margin: 0 10px;
+  overflow: hidden;
+  border-bottom: 1px dashed #fff;
+  display: inline-block;
+  width: 48%;
+}
+.menu-image-thumbnail {
+  float: left;
+  width: 25%;
+ 
+}
+.menu-image-thumbnail img {
+  margin-right: 10px;
+  border: 1px solid #C3C3C3;
+  padding: 5px;
+  height: auto;
+  width: 100px;
+}
+.menu-content {
+  float: left;
+  width: 58%;
+}
+.menu-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.haschildren {
+ width: 72%;
+}
+.menu-content  table {
+  width: 100%;
+}
+.haschildren .menu-content {
+  width: 100%;
+}
+.haschildren .menu-content .menu-price {
+  width: 20%;
+}
+.menu-content .menu-content h3 {
+  font-size: 16px;
+  float: left;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+.menu-content .menu-content .menuitem-types {
+  display: inline-flex;
+  width: auto;
+}
+.menu-content .menu-content .submenu-items {
+  margin-bottom: 10px;
+  float: left;
+  width: 80%;
+}
+.tab_container_verticle .menu-content .menu-content .menuitem-types li {
+  width: 100% !important;
+  margin: 0 5px;
+}
+.menu-content .menu-price {
+  width: 20%;
+  float: right;
+}
+.tab_container_verticle .menu-content h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.tab_container_verticle .menu-price {
+  float: left;
+    width: 15%;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    color: #E11E27;
+}
+.menu-btn-ul {
+  width: 100%;
+  text-align: center;
+}
+.menu-btn-ul li {
+  display: inline-block;
+}
+.menu-btn-ul li a {
+  background: #E11E27;
+  color: #fff;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+}
+.beverages .menu-image-thumbnail {
+  display: none;
+}
+.beverages .menu-content  {
+  width: 85%;
+}
+.khmenu-index {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+}
+.khmenu-index li {
+  justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 30px 10px 0;
+}
+
+/* Verticle Tabs */
+.section-padding {
+  padding: 60px 0;
+}
+ul.tabs_verticle {
+  float: right;
+  width: 25%;
+  padding: 10px 5px 0px 0;
+  box-shadow: 0 8px 21px 0 rgb(0 0 0 / 10%);
+  background-color: #FFF;
+}
+ul.tabs_verticle li {
+  display: block;
+  width: 100%;
+}
+.tab_container_verticle {
+  width: 75%;
+  float: left;
+  color: #121212;
+}
+.tab_container_verticle .menuul li {
+  width: 47%;
+  overflow: visible;
+  color: #212529;
+  border-bottom: 1px dashed #C3C3C3;
+  vertical-align: top;
+}
+
+ul.tabs_verticle li{
+  display: block;
+  width: 100%;
+  color: #777;
+  margin: 4px 0 0 15px;
+  text-transform: capitalize;
+  font-size: 1.143em;
+  position: relative;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  padding: 0 0 5px;
+  border-bottom: 1px dashed #C3C3C3;
+  width: calc(100% - 35px);
+}
+ul.tabs_verticle li:hover:before, ul.tabs_verticle li.active:before {
+  height: calc(100% + 10px);
+}
+ul.tabs_verticle li:hover, ul.tabs_verticle li.active {
+  color: #E11E27;
+}
+ul.tabs_verticle li:before {
+  position: absolute;
+  content: "";
+  left: -15px;
+  top: 50%;
+  height: 0;
+  width: 4px;
+  background-color: #E11E27;
+  -webkit-transform: translateY(-60%);
+  transform: translateY(-60%);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+ul.tabs_verticle li.active, ul.tabs_verticle li:hover {
+  border-bottom: 1px dashed #C3C3C3;
+}
+ul.tabs_verticle li.active:after, ul.tabs_verticle  li:hover:after {
+  content: '';
+  position: absolute;
+  left: 48%;
+  bottom: -7px;
+  width: 0;
+  height: 0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  clear: both;
+}
+.tab_container_verticle .menu-content p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+@media only screen and (min-width : 320px) and (max-width : 768px) { 
+  .tab_container_verticle, .tab_container_verticle .menuul li {
+      width: 100%;
+  }
+  .menu-content {
+      width: 42%;
+  }
+  .tab_container_verticle .menu-price {
+      width: 10%;
+  }
+  .tab_container_verticle .menu-content h2 {
+      font-size: 15px;
+  }
+  .tab_container_verticle .menuul li:first-child {
+      padding-top: 0;
+  }
+  .tab_content .section-title h2, .tab_content .section-title h2 {
+      font-size: 15px;
+  }
+  .tab_content .section-title {
+      padding-left: 10px;
+      padding-top: 20px;
+  }
+}
+/* Woocommerce */
+.woocommerce .woocommerce-breadcrumb {
+  margin: 30px 0;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+  background-color: #1f2021;
+}
+.single_add_to_cart_button {
+  padding: 13px 30px !important;
+}
+.woocommerce-info {
+  border-top-color: #3595EF;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+  text-align: left;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+  color: #121212;
+  font-weight: bold;
+}
+.woocommerce ul#shipping_method li {
+  line-height: 0;
+}
+.form-wrapper .form-col {
+  float: left;
+  width: 47%;
+  margin: 5px 10px;
+}
+.form-row {
+  width: 97%;
+  margin: 5px 10px;
+  display: inline-block;
+}
+.wpcf7-submit {
+  font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    background-color: #3595EF;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 50px 10px 50px !important;
+}
+footer a {
+  color: #fff;
+}

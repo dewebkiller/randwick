@@ -1,0 +1,187 @@
+ul.tabs {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    width: 100%;
+    background: none;
+    text-align: center;    
+}
+
+ul.tabs li {
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 0;
+    line-height: 31px;
+    color: #3595EF;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.tab_last { }
+
+ul.tabs li.active, ul.tabs li:hover {
+    border-bottom: 2px solid #3595EF;
+}
+ul.tabs li.active:after, ul.tabs li:hover:after {
+    content: '';
+    position: absolute;
+    left:  48%;
+    bottom: -7px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #3595EF;
+    clear: both;
+}
+.tab_container {
+    border-top: none;
+    clear: both;
+    float: left;
+    width: 100%;
+    overflow: auto;
+    color: #fff;
+}
+
+.tab_content {
+    padding: 0;
+    display: none;
+}
+
+.tab_drawer_heading { display: none; }
+
+@media screen and (max-width: 480px) {
+    .tabs {
+        display: none;
+    }
+    .tab_drawer_heading {
+        background-color: #9C2924;
+        color: #fff;
+        border-top: 1px solid #E11E27;
+        font-size: 20px;
+        margin: 0;
+        padding: 5px 20px;
+        font-size: 20px;
+        display: block;
+        cursor: pointer;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        overflow: hidden;
+    }
+    .d_active {
+        background-color: #ee891d;
+        color: #fff;
+        font-size: 15px;
+    }
+}
+
+/* Verticle Tabs */
+ul.tabs_verticle {
+    float: right;
+    width: 25%;
+    padding: 10px 5px 0px 0;
+    box-shadow: 0 8px 21px 0 rgb(0 0 0 / 10%);
+    background-color: #FFF;
+}
+ul.tabs_verticle li {
+    display: block;
+    width: 100%;
+}
+.tab_container_verticle {
+    width: 75%;
+    float: left;
+    color: #212529;
+}
+.tab_container_verticle .menuul li {
+    width: 47%;
+    overflow: visible;
+    color: #212529;
+    border-bottom: 1px dashed #C3C3C3;
+    vertical-align: top;
+}
+
+ul.tabs_verticle li{
+    display: block;
+    width: 100%;
+    color: #777;
+    margin: 4px 0 0 15px;
+    text-transform: capitalize;
+    font-size: 1.143em;
+    position: relative;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    padding: 0 0 5px;
+    border-bottom: 1px dashed #C3C3C3;
+    width: calc(100% - 35px);
+}
+ul.tabs_verticle li:hover:before, ul.tabs_verticle li.active:before {
+    height: calc(100% + 10px);
+}
+ul.tabs_verticle li:hover, ul.tabs_verticle li.active {
+    color: #E11E27;
+  }
+ul.tabs_verticle li:before {
+    position: absolute;
+    content: "";
+    left: -15px;
+    top: 50%;
+    height: 0;
+    width: 4px;
+    background-color: #E11E27;
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+ul.tabs_verticle li.active, ul.tabs_verticle li:hover {
+    border-bottom: 1px dashed #C3C3C3;
+}
+ul.tabs_verticle li.active:after, ul.tabs_verticle  li:hover:after {
+    content: '';
+    position: absolute;
+    left: 48%;
+    bottom: -7px;
+    width: 0;
+    height: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    clear: both;
+}
+.tab_container_verticle .menu-content p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+@media only screen and (min-width : 320px) and (max-width : 768px) { 
+    .tab_container_verticle, .tab_container_verticle .menuul li {
+        width: 100%;
+    }
+    .menu-content {
+        width: 42%;
+    }
+    .tab_container_verticle .menu-price {
+        width: 10%;
+    }
+    .tab_container_verticle .menu-content h2 {
+        font-size: 15px;
+    }
+    .tab_container_verticle .menuul li:first-child {
+        padding-top: 0;
+    }
+    .tab_content .section-title h2, .tab_content .section-title h2 {
+        font-size: 15px;
+    }
+    .tab_content .section-title {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+}
